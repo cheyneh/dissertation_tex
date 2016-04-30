@@ -1,0 +1,41 @@
+\usepackage{enumerate}
+
+\usepackage{amsthm, amsmath, amssymb}
+% \usepackage{mathabx}
+\usepackage{float}
+\usepackage{bm} % Bold Math package, for table headers
+% this package conflicts with awful...
+% \usepackage[labelformat=simple,skip=-2pt]{subcaption}
+\usepackage[nocompress]{cite}
+
+% for the pseudocode
+\usepackage[figure,ruled]{algorithm2e}
+
+
+\usepackage{filecontents}
+
+% generates fake text
+\usepackage{lipsum} 
+\usepackage{kantlipsum}
+\renewcommand{\lipsum}{\kant}
+
+\usepackage{tikz}
+  \usetikzlibrary{shapes,snakes,plotmarks}
+  \tikzstyle{ball}=[circle, draw, inner sep=1pt, color=black]
+  \tikzstyle{open_y}=[ball,fill=white]%, label=right:{$y$}]
+  \tikzstyle{open}=[ball,fill=white]
+  \tikzstyle{open2}=[ball,fill=white,minimum size=.15cm]
+  \tikzstyle{closed}=[ball,fill=black]%, label=right:{$x$}]
+  \tikzstyle{zball}=[ball,rectangle,minimum size=.1cm]%, label=right:{$z$}]
+
+\newcommand\diag[4]{%
+  \multicolumn{1}{p{#2}|}{\hskip-\tabcolsep
+  $\vcenter{\begin{tikzpicture}[baseline=0,anchor=south west,inner sep=#1]
+  \path[use as bounding box] (0,0) rectangle (#2+2\tabcolsep,\baselineskip);
+  \node[minimum width={#2+2\tabcolsep},minimum height=\baselineskip+\extrarowheight] (box) {};
+  \draw (0.25ex,\baselineskip+0.05ex) -- (box.south east);
+  \node[overlay] at (0.25ex,-0.05ex) {$k$};
+  \node[overlay] at (2.25ex,1ex) {$n$};
+  \end{tikzpicture}}$\hskip-\tabcolsep}
+}
+\newcommand{\diagnk}{\diag{0.1em}{0.1cm}{$k$}{$n$}}

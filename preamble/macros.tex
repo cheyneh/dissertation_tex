@@ -1,0 +1,159 @@
+
+
+
+% =========================================================================== %
+% general stuff
+
+\renewcommand{\S}{\mathfrak{S}}
+\newcommand{\C}{\mathcal{C}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cU}{\mathcal{U}}
+\newcommand{\cV}{\mathcal{V}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cP}{\mathcal{P}}
+\newcommand{\fV}{\mathfrak{V}}
+\newcommand{\cW}{\mathcal{W}}
+\newcommand{\cM}{\mathcal{M}}
+\newcommand{\cBV}{\cB_\cV}
+\newcommand{\cBU}{\cB_\cU}
+\newcommand{\cBW}{\cB_\cW}
+\newcommand{\cBM}{\cB_\cM}
+\newcommand{\sg}{\sigma}
+\newcommand{\ph}{\varphi}
+\newcommand{\eps}{\epsilon}
+\newcommand{\dsum}{\oplus}
+\newcommand{\vect}[1]{\left\langle #1 \right\rangle}
+
+\newcommand{\eval}[2][\right]{\relax\ifx#1\right\relax \left.\fi#2#1\rvert}
+
+\newcommand{\pa}[1]{\left({#1}\right)}
+\newcommand{\br}[1]{\left[{#1}\right]}
+
+\newcommand{\limn}{\lim_{n \ra \infty}}
+
+\newcommand{\frall}{\enspace \forall \enspace}
+\newcommand{\ssum}{\ominus}
+
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}
+
+%\newcommand{\Zgeq}{\mathbb{Z}_{\geq 0}}
+\newcommand{\Zgeq}{\mathbb{N}}
+\newcommand{\Pos}{\mathbb{P}}
+
+\newcommand{\ltrmin}{ltr-min}
+\newcommand{\rtlmax}{rtl-max}
+
+\DeclareMathOperator{\Sp}{{Sp}}
+\DeclareMathOperator{\std}{{st}}
+\DeclareMathOperator{\Av}{{Av}}
+\DeclareMathOperator{\asc}{{asc}}
+\DeclareMathOperator{\fp}{{fp}}
+\DeclareMathOperator{\wt}{{wt}}
+\DeclareMathOperator{\ltrm}{{ltrmin}}
+\DeclareMathOperator{\rtlm}{{rtlmax}}
+
+\newcommand{\D}{\mathcal{D}}
+\newcommand{\ra}{\rightarrow}
+\newcommand{\R}{\mathcal{R}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Zp}{\mathbb{Z}_p}
+\newcommand{\ddx}{\frac{\mathrm{d}}{\mathrm{d}x}}
+\newcommand{\ddxc}{\frac{\mathrm{d}^3}{\mathrm{d}x^3}}
+
+\newcommand{\OEISlink}[1]{\href{http://oeis.org/#1}{#1}}
+\newcommand{\OEISref}{\href{http://oeis.org/}{OEIS}~\cite{oeis}}
+\newcommand{\OEIS}[1]{sequence \OEISlink{#1} in the \OEISref \index{Online
+Encyclopedia of Integer Sequences}}
+
+
+
+% =========================================================================== %
+% involutions
+\newcommand{\htso}{\widehat{s}^{(1)}}
+\newcommand{\htst}{\widehat{s}^{(2)}}
+\newcommand{\htsz}{\widehat{s}^{(0)}}
+
+\newcommand{\sone}{s^{(1)}}
+\newcommand{\stwo}{s^{(2)}}
+\newcommand{\szero}{s^{(0)}}
+
+\newcommand{\hts}{\widehat{s}}
+\newcommand{\AvnI}{\Av_n^I}
+
+% =========================================================================== %
+% probability and expectation
+\newcommand{\Ex}[1]{\mathbb{E}\left[ #1 \right]}
+\newcommand{\Var}[1]{\mathbb{V}\left[ #1 \right]}
+\renewcommand{\Pr}[1]{\mathbb{P}\left[ #1 \right]}
+
+
+
+% ====================================================================== %
+% Chapter 1
+\newcommand{\num}{\nu}
+\newcommand{\Avn}{\Av_n(123)}
+\newcommand{\Avns}{\Av_n^*(123)}
+
+% =========================================================================== %
+% Fixpat
+\newcommand{\del}{\nabla}
+\newcommand{\dta}{\delta}
+\newcommand{\bta}{\beta}
+\newcommand{\Gam}{\Gamma}
+\newcommand{\pspan}{\sigma}
+
+\newcommand{\dtan}{\delta_n}
+\newcommand{\btan}{\beta_n}
+\newcommand{\delpi}{\del_\pi}
+\newcommand{\delpik}{\delpi^k}
+\newcommand{\ins}{\Phi}
+\newcommand{\inssg}{\ins_\sg}
+\newcommand{\alp}{\alpha}
+\newcommand{\gam}{\gamma}
+\newcommand{\uisone}{\big|_{u = 1}}
+
+% =========================================================================== %
+% PolyClass
+\newcommand{\pl}[1]{#1^+}
+\newcommand{\mn}[1]{#1^-}
+\newcommand{\dt}[1]{#1^\bullet}
+\newcommand{\tpi}{\tilde{\pi}}
+\newcommand{\tro}{\tilde{\rho}}
+\newcommand{\tS}{\tilde{S}}
+\newcommand{\ro}{\rho}
+\newcommand{\blt}{\bullet}
+\newcommand{\tsg}{\tilde{\sigma}}
+\newcommand{\ttau}{\tilde{\tau}}
+\newcommand{\I}{\mathcal{I}}
+
+\newcommand{\nc}[1]{{n \choose #1}}
+
+
+% =========================================================================== %
+% colors 
+  \definecolor{lightgray}{rgb}{.8,.8,.8}
+
+  % from tikz
+  \definecolor{light-gray}{gray}{0.65}
+  \definecolor{dark-gray}{gray}{0.35}
+
+
+% ====================================================================== %
+% Theorems
+  \theoremstyle{definition}
+  \newtheorem{theorem}{Theorem}[section]
+  \newtheorem{lemma}[theorem]{Lemma}
+  \newtheorem{corollary}[theorem]{Corollary}
+  \newtheorem{definition}[theorem]{Definition}
+  \newtheorem{assumption}[theorem]{Assumption}
+  \newtheorem{proposition}[theorem]{Proposition}
+  \newtheorem{example}[theorem]{Example}
+  \newtheorem{fact}[theorem]{Fact}
+
+
+
+% ====================================================================== %
+% Dealing with template
+  \newcommand{\p}{^{\prime}}

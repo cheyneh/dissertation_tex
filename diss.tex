@@ -1,0 +1,185 @@
+\documentclass[10pt,twoside]{memoir}
+
+% paper size
+% =========================================================================== %
+
+%\usepackage[textwidth = 6in, textheight=9in, hmarginratio=1:1]{geometry}
+% \usepackage[top=1.5in, bottom=1.5in, textwidth=5.5in, 
+%             hmarginratio=3:2]{geometry}
+
+\setstocksize{9in}{6in}
+\settrimmedsize{9in}{6in}{*}
+\settypeblocksize{7in}{4.5in}{*}
+\setlrmargins{.75in}{*}{*}
+\setulmargins{1in}{*}{*}
+\checkandfixthelayout
+
+\sloppy
+
+\input{packages}
+\input{macros}
+
+\usepackage{makeidx}
+\makeindex
+
+\usepackage{mystyle}
+
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+    \ifcase #1 (Not cited.)%
+    \or        (Cited on page~#2.)%
+    \else      (Cited on pages~#2.)%
+    \fi}
+
+\chapterstyle{hline}
+
+\newcommand{\UnderlinedTocSection}[1]{%
+  \addtocontents{toc}{\protect\addvspace{1pc}%
+         \protect\contentsline {chapter}%
+        {\protect\Large\scshape\mdseries #1}{}{}%
+        \hfill\par\protect\addvspace{-18pt}%
+        \noindent\hrulefill\hspace*{24pc}\par}}
+
+\hypersetup{
+  pdfauthor=Cheyne Homberger,
+  pdftitle=Dissertation-Homberger,
+  }
+
+
+% ====================================================================== %
+% \renewcommand{\scalebox}[2]{#2}
+\begin{document}
+\thispagestyle{empty}
+
+
+\pretitle{ \begin{center}}
+\title{\vspace{-6pc} \hrulefill \\ {\scshape \LARGE Patterns in Permutations and
+    Involutions\\[6pt]}}
+\posttitle{\par {\Large \scshape A Structural and Enumerative Approach}
+\\[-4pt] \hrulefill \vfill \end{center}}
+\author{{\small by} \\[4pc] Cheyne Homberger}
+\predate{\vfill\begin{center}\normalsize}
+
+
+\date{\vspace{4pc} A Dissertation Presented to the Graduate School of the University
+of Florida in Partial Fulfillment of the Requirements for the Degree of \\
+Doctor of Philosophy \\[1pc]
+University of Florida \\[1pc]
+2014}
+\maketitle
+\thispagestyle{empty}
+
+
+\cleardoublepage 
+
+\thispagestyle{empty}
+
+\begin{center} \itshape
+  \vspace*{.4\textheight}
+  \input{prematter/dedication}
+\end{center}
+\cleardoublepage
+
+\frontmatter
+
+\cleardoublepage
+
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\input{prematter/acknowledgements.tex}
+
+\cleardoublepage
+
+\tableofcontents
+
+\cleardoublepage
+
+\listoftables
+
+\cleardoublepage
+
+\listoffigures
+
+\newpage
+
+\cleardoublepage
+
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{prematter/abstract.tex}
+
+\UnderlinedTocSection{Chapters}
+
+% begin body
+% ====================================================================== %
+\mainmatter
+
+\cleardoublepage
+\typeout{******************}
+\typeout{**  Chapter 1   **}
+\typeout{******************}
+\include{body/chap-prelim}
+
+
+\cleardoublepage
+\typeout{******************}
+\typeout{**  Chapter 2   **}
+\typeout{******************}
+\include{body/chap-expat}
+
+\cleardoublepage
+\typeout{******************}
+\typeout{**  Chapter 3   **}
+\typeout{******************}
+\include{body/chap-involutions}
+
+\cleardoublepage
+\typeout{******************}
+\typeout{**  Chapter 4   **}
+\typeout{******************}
+\include{body/chap-polyclass}
+
+\cleardoublepage
+\typeout{******************}
+\typeout{**  Chapter 5   **}
+\typeout{******************}
+\include{body/chap-fixpat}
+
+% ====================================================================== %
+
+% \UnderlinedTocSection{Appendix}
+% 
+% \appendix
+% 
+% % \let\oldthepage\thepage
+% % 
+% % % ====================================================================== %
+% \cleardoublepage
+% % \pagenumbering{arabic}
+% % \renewcommand*{\thepage}{A\arabic{page}}
+% \include{app-dyck}
+% 
+% % ====================================================================== %
+% \cleardoublepage
+% % \pagenumbering{arabic}
+% % \renewcommand*{\thepage}{B\arabic{page}}
+% \include{app-probability}
+% 
+% % ====================================================================== %
+% \cleardoublepage
+% % \pagenumbering{arabic}
+% % \renewcommand*{\thepage}{C\arabic{page}}
+% \include{app-complex}
+% 
+% % ====================================================================== %
+% % \renewcommand*{\thepage}{\oldthepage}
+% % \pagenumbering{roman}
+% \cleardoublepage
+
+\backmatter
+\bibliographystyle{acm}
+\bibliography{library}
+
+% \printindex
+
+\end{document}
