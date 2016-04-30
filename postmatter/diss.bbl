@@ -1,0 +1,502 @@
+\begin{thebibliography}{10}
+
+\bibitem{PermLab}
+{\sc Albert, M.~H.}
+\newblock Perm{L}ab: Software for permutation patterns, 2012.
+\newblock Available online at \url{http://www.cs.otago.ac.nz/PermLab}.
+
+\bibitem{Atkinson2005}
+{\sc Albert, M.~H., and Atkinson, M.~D.}
+\newblock Simple permutations and pattern restricted permutations.
+\newblock {\em Discrete Math. 300}, 1-3 (2005), 15 pp.
+
+\bibitem{Albert2010}
+{\sc Albert, M.~H., Atkinson, M.~D., Brignall, R., Ru\v{s}kuc, N., Smith, R.,
+  and West, J.}
+\newblock Growth rates for subclasses of {A}v(321).
+\newblock {\em Electron. J. Comb. 17}, 1 (2010), Research Paper 141, 16.
+
+\bibitem{Claesson2013}
+{\sc Albert, M.~H., Atkinson, M.~D., and Claesson, A.}
+\newblock Isomorphisms between pattern classes.
+\newblock arXiv:1308.3262 [math.CO], 11 pp.
+
+\bibitem{Albert2012}
+{\sc Albert, M.~H., Atkinson, M.~D., and Vatter, V.}
+\newblock Inflations of geometric grid classes: Three case studies.
+\newblock {\em Australas. J. Comb. 58}, 1 (2014), pp. 27--47.
+
+\bibitem{GridClasses}
+{\sc Albert, M.~H., Atkinson, M.~D., Vatter, V., Ru\v{s}kuc, N., and Bouvel,
+  M.}
+\newblock Geometric grid classes of permutations.
+\newblock {\em Trans. Am. Math. Soc. 365\/} (2012), 5859--5881.
+
+\bibitem{Flynn2007}
+{\sc Albert, M.~H., Coleman, M., Flynn, R., and Leader, I.}
+\newblock Permutations containing many patterns.
+\newblock {\em Ann. Comb. 11}, 3-4 (2007), 265--270.
+
+\bibitem{1324LowerBound}
+{\sc Albert, M.~H., Elder, M., Rechnitzer, A., Westcott, P., and Zabrocki, M.}
+\newblock On the {S}tanley-{W}ilf limit of 4231-avoiding permutations and a
+  conjecture of {A}rratia.
+\newblock {\em Adv. Appl. Math. 36}, 2 (2006), 96--105.
+
+\bibitem{Linton2005}
+{\sc Albert, M.~H., Linton, S., and Ru\v{s}kuc, N.}
+\newblock The insertion encoding of permutations.
+\newblock {\em Electron. J. Comb. 12\/} (2005), Paper 47, 31 pp.
+
+\bibitem{Vatter2013}
+{\sc Albert, M.~H., and Vatter, V.}
+\newblock Generating and enumerating 321-avoiding and skew-merged simple
+  permutations.
+\newblock {\em Electron. J. Comb. 20}, 2 (2013), Paper 44, 11 pp.
+
+\bibitem{Alpar2009}
+{\sc Alpar-Vajk, K.}
+\newblock A bound for the reversal distance of genome rearrangements.
+\newblock {\em J. Math. Chem.\/} (2009), 941--945.
+
+\bibitem{Arratia1999}
+{\sc Arratia, R.}
+\newblock On the {S}tanley-{W}ilf conjecture for the number of permutations
+  avoiding a given pattern.
+\newblock {\em Electron. J. Comb. 6\/} (1999), Note 1, 4 pp.
+
+\bibitem{Atkinson2011}
+{\sc Atkinson, M.~D., Ru\v{s}kuc, N., and Smith, R.}
+\newblock Substitution-closed pattern classes.
+\newblock {\em J. Comb. Theory, Ser. A 118}, 2 (2011), 317--340.
+
+\bibitem{BabsonWest}
+{\sc Babson, E., and West, J.}
+\newblock The permutations {$123p_4\cdots p_m$} and {$321p_4\cdots p_m$} are
+  {W}ilf-equivalent.
+\newblock {\em Graphs Comb. 16}, 4 (2000), 373--380.
+
+\bibitem{Backelin2007}
+{\sc Backelin, J., West, J., and Xin, G.}
+\newblock Wilf-equivalence for singleton classes.
+\newblock {\em Adv. Appl. Math. 38}, 2 (2007), 133--148.
+
+\bibitem{Bafna1998}
+{\sc Bafna, V., and Pevzner, P.}
+\newblock Sorting by transpositions.
+\newblock {\em SIAM J. Discret. Math. 11}, 2 (1998), 224--240.
+
+\bibitem{bloomvince}
+{\sc Bloom, J., and Vatter, V.}
+\newblock Two vignettes on full rook placements.
+\newblock arXiv:1310.6073 [math.CO], 9 pp.
+
+\bibitem{Bona1997}
+{\sc B\'{o}na, M.}
+\newblock Exact enumeration of {1342}-avoiding permutations: a close link with
+  labeled trees and planar maps.
+\newblock {\em J. Comb. Theory, Ser. A 80}, 2 (1997), 257--272.
+
+\bibitem{Bona2007}
+{\sc B\'{o}na, M.}
+\newblock New records in {S}tanley–{W}ilf limits.
+\newblock {\em Eur. J. Comb. 28}, 1 (Jan. 2007), 75--85.
+
+\bibitem{Bona2010}
+{\sc B\'{o}na, M.}
+\newblock The absence of a pattern and the occurrences of another.
+\newblock {\em Discret. Math. Theor. Comput. Sci. 13}, 2 (2010), 89--102.
+
+\bibitem{BonaWalk}
+{\sc B\'{o}na, M.}
+\newblock {\em A walk through combinatorics}, third~ed.
+\newblock World Scientific Publishing Co. Pte. Ltd., Hackensack, NJ, 2011.
+\newblock An introduction to enumeration and graph theory, With a foreword by
+  Richard Stanley.
+
+\bibitem{BonaPerm}
+{\sc B\'{o}na, M.}
+\newblock {\em Combinatorics of permutations}, second~ed.
+\newblock Discrete Mathematics and its Applications (Boca Raton). CRC Press,
+  Boca Raton, FL, 2012.
+\newblock With a foreword by Richard Stanley.
+
+\bibitem{1324UpperBound}
+{\sc B\'{o}na, M.}
+\newblock A new upper bound for 1324-avoiding permutations.
+\newblock arXiv:1207:2379 [math.CO], 6 pp.
+
+\bibitem{Bona2012}
+{\sc B\'{o}na, M.}
+\newblock Surprising symmetries in objects counted by catalan numbers.
+\newblock {\em Electron. J. Comb. 19}, 1 (2012), Paper 62, 12 pp.
+
+\bibitem{Bona2009}
+{\sc B\'{o}na, M., and Flynn, R.}
+\newblock The average number of block interchanges needed to sort a permutation
+  and a recent result of stanley.
+\newblock {\em Inf. Process. Lett. 109}, 16 (July 2009), 927--931.
+
+\bibitem{me-involutions}
+{\sc B\'{o}na, M., Homberger, C., Pantone, J., and Vatter, V.}
+\newblock Pattern avoiding involutions: Exact and asymptotic enumeration.
+\newblock arXiv:1310.7003 [math.CO], 26 pp.
+
+\bibitem{Brignall2007}
+{\sc Brignall, R.}
+\newblock Simplicity in relational structures and its application to
+  permutation classes.
+\newblock {\em PhD Thesis, Univ. St Andrews\/} (2007).
+
+\bibitem{Brignall2008}
+{\sc Brignall, R., Huczynska, S., and Vatter, V.}
+\newblock Simple permutations and algebraic generating functions.
+\newblock {\em J. Comb. Theory, Ser. A 115}, 3 (2008), 423--441.
+
+\bibitem{Elizalde2013}
+{\sc Burstein, A., and Elizalde, S.}
+\newblock Total occurrence statistics on restricted permutations.
+\newblock {\em Pure Math Appl. to appear\/}.
+
+\bibitem{pantone2014}
+{\sc Burstein, A., and Pantone, J.}
+\newblock Two examples of unbalanced wilf-equivalence.
+\newblock arXiv:1402.3842 [math.CO], 8 pp.
+
+\bibitem{Chapman1999}
+{\sc Chapman, R.}
+\newblock Moments of dyck paths.
+\newblock {\em Discrete Math. 204\/} (1999), 113--117.
+
+\bibitem{Cheng2007}
+{\sc Cheng, S.-E., Eu, S.-P., and Fu, T.-S.}
+\newblock Area of catalan paths on a checkerboard.
+\newblock {\em Eur. J. Comb. 28}, 4 (May 2007), 1331--1344.
+
+\bibitem{Christie1996}
+{\sc Christie, D.~A.}
+\newblock Sorting permutations by block-interchanges.
+\newblock {\em Inf. Process. Lett. 60}, 4 (1996), 165--169.
+
+\bibitem{Claesson2012}
+{\sc Claesson, A., Jel\'{\i}nek, V., and Steingr\'{\i}msson, E.}
+\newblock Upper bounds for the {S}tanley-{W}ilf limit of 1324 and other layered
+  patterns.
+\newblock {\em J. Comb. Theory, Ser. A 119}, 8 (2012), 1680--1691.
+
+\bibitem{Claesson2008}
+{\sc Claesson, A., and Kitaev, S.}
+\newblock Classification of bijections between 321- and 132-avoiding
+  permutations.
+\newblock {\em 20th Annu. Int. Conf. Form. Power Ser. Algebr. Comb. (FPSAC
+  2008)}, 060005012 (2008), 495--506.
+
+\bibitem{Cranston2007}
+{\sc Cranston, D.~W., Sudborough, I.~H., and West, D.~B.}
+\newblock Short proofs for cut-and-paste sorting of permutations.
+\newblock {\em Discrete Math. 307}, 22 (2007), 2866--2870.
+
+\bibitem{Denise1995}
+{\sc Denise, A., and Simion, R.}
+\newblock Two combinatorial statistics on dyck paths.
+\newblock {\em Discrete Math. 137}, 1-3 (1995), 155--176.
+
+\bibitem{Deutsch1999}
+{\sc Deutsch, E.}
+\newblock Dyck path enumeration.
+\newblock {\em Discrete Math. 204}, 1-3 (June 1999), 167--202.
+
+\bibitem{Dias2002}
+{\sc Dias, Z., and Meidanis, J.~a.}
+\newblock Sorting by prefix transpositions.
+\newblock In {\em String Process. Inf. Retr.}, A.~Laender and A.~Oliveira,
+  Eds., vol.~2476 of {\em Lecture Notes in Computer Science}. Springer Berlin
+  Heidelberg, 2002, pp.~65--76.
+
+\bibitem{Elder2005}
+{\sc Elder, M., and Vatter, V.}
+\newblock Problems and conjectures presented at the third international
+  conference on permutation patterns, university of florida, march 7-11, 2005.
+\newblock arXiv:0505504v1 [math.CO], 8 pp.
+
+\bibitem{sergithesis}
+{\sc Elizalde, S.}
+\newblock Statistics on pattern-avoiding permutations.
+\newblock {\em PhD Thesis, Massachusetts Inst. Technol.\/} (2004).
+
+\bibitem{GenomeBook}
+{\sc Fertin, G., Labarre, A., Rusu, I., Tannier, E., and Vialette, S.}
+\newblock {\em Combinatorics of genome rearrangements}.
+\newblock The MIT Press, June 2009.
+
+\bibitem{flajolet}
+{\sc Flajolet, P., and Sedgewick, R.}
+\newblock {\em Analytic combinatorics}.
+\newblock Cambridge University Press, Cambridge, 2009.
+
+\bibitem{Fox}
+{\sc Fox, J.}
+\newblock {S}tanley-{W}ilf limits are typically exponential.
+\newblock arXiv:1310.8378 [math.CO], 13 pp.
+
+\bibitem{BillGates}
+{\sc Gates, W.~H., and Papadimitriou, C.~H.}
+\newblock Bounds for sorting by prefix reversal.
+\newblock {\em Discrete Math. 27}, 1 (1979), 47--57.
+
+\bibitem{Gessel1990}
+{\sc Gessel, I.~M.}
+\newblock Symmetric functions and {P}-recursiveness.
+\newblock {\em J. Comb. Theory, Ser. A 53}, 2 (1990), 257--285.
+
+\bibitem{gouldenjackson1}
+{\sc Goulden, I.~P., and Jackson, D.~M.}
+\newblock An inversion theorem for cluster decompositions of sequences with
+  distinguished subsequences.
+\newblock {\em J. London Math. Soc. 20}, 3 (1979), 567--576.
+
+\bibitem{gouldenjackson2}
+{\sc Goulden, I.~P., and Jackson, D.~M.}
+\newblock {\em Combinatorial enumeration}.
+\newblock Dover Publications, Inc., Mineola, NY, 2004.
+\newblock With a foreword by Gian-Carlo Rota, Reprint of the 1983 original.
+
+\bibitem{Guibert2001}
+{\sc Guibert, O., Pergola, E., and Pinzani, R.}
+\newblock Vexillary involutions are enumerated by {M}otzkin numbers.
+\newblock {\em Ann. Comb. 5}, 2 (2001), 153--174.
+
+\bibitem{HigmansThm}
+{\sc Higman, G.}
+\newblock Ordering by divisibility in abstract algebras.
+\newblock {\em Proc. London Math. Soc. 2\/} (1952), 326--336.
+
+\bibitem{me-fixpat}
+{\sc Homberger, C.}
+\newblock Counting fixed-length permutation patterns.
+\newblock {\em Online J. Anal. Comb. 7\/} (2012), 12 pp.
+
+\bibitem{me-expat}
+{\sc Homberger, C.}
+\newblock Expected patterns in permutation classes.
+\newblock {\em Electron. J. Comb. 19}, 3 (2012), Paper 43, 12 pp.
+
+\bibitem{me-polyclass}
+{\sc Homberger, C., and Vatter, V.}
+\newblock On the effective and automatic enumeration of polynomial permutation
+  classes.
+\newblock arXiv:1308.4946 [math.CO], 10 pp.
+
+\bibitem{polyclass-algo}
+{\sc Homberger, C., and Vatter, V.}
+\newblock Poly{C}lass algorithm, 2013.
+\newblock Published online at \url{http://github.com/cheyneh/polyclass}.
+
+\bibitem{SophieVince}
+{\sc Huczynska, S., and Vatter, V.}
+\newblock Grid classes and the {F}ibonacci dichotomy for restricted
+  permutations.
+\newblock {\em Electron. J. Comb. 13}, 1 (2006), Research Paper 54, 14 pp.
+  (electronic).
+
+\bibitem{Jaggard2002}
+{\sc Jaggard, A.~D.}
+\newblock Prefix exchanging and pattern avoidance by involutions.
+\newblock {\em Electron. J. Comb. 9}, 2 (2003), Research paper 16, 24.
+\newblock Permutation patterns (Otago, 2003).
+
+\bibitem{Janson2014}
+{\sc Janson, S., Nakamura, B., and Zeilberger, D.}
+\newblock On the asymptotic statistics of the number of occurrences of multiple
+  permutation patterns.
+\newblock arXiv:1312.3955 [math.CO], 18 pp.
+
+\bibitem{Klazar2003}
+{\sc Kaiser, T., and Klazar, M.}
+\newblock On growth rates of closed permutation classes.
+\newblock {\em Electron. J. Comb. 9}, 2 (Oct. 2002), 20 pp.
+
+\bibitem{Kaplansky}
+{\sc Kaplansky, I.}
+\newblock The asymptotic distribution of runs of consecutive elements.
+\newblock {\em Ann. Math. Stat. 16\/} (1945), 200--203.
+
+\bibitem{Dweighter}
+{\sc Kleitman, D.~J., Kramer, E., Conway, J.~H., Bell, S., and Dweighter, H.}
+\newblock Problems and {S}olutions: {E}lementary {P}roblems: {E}2564-{E}2569.
+\newblock {\em Am. Math. Mon. 82}, 10 (1975), 1009--1010.
+
+\bibitem{Knuth}
+{\sc Knuth, D.~E.}
+\newblock {\em The Art of Computer Programming. {V}ol 1: {F}undamental
+  Algorithms}.
+\newblock Addison-Wesley Publishing Co., Reading, Mass., 1969.
+\newblock Sorting and searching, Addison-Wesley Series in Computer Science and
+  Information Processing.
+
+\bibitem{Krattenthaler2001}
+{\sc Krattenthaler, C.}
+\newblock Permutations with restricted patterns and dyck paths.
+\newblock {\em Adv. Appl. Math. 27}, 2-3 (2001), 17 pp.
+
+\bibitem{Kremer2000}
+{\sc Kremer, D.}
+\newblock Permutations with forbidden subsequences and a generalized
+  {S}chr\"{o}der number.
+\newblock {\em Discrete Math. 218}, 1-3 (2000), 121--130.
+
+\bibitem{KremerPS}
+{\sc Kremer, D.}
+\newblock Postscript: ``{P}ermutations with forbidden subsequences and a
+  generalized {S}chr\"{o}der number'' [{D}iscrete {M}ath.\ {218} (2000), no.\
+  1-3, 121--130; {MR}1754331 (2001a:05005)].
+\newblock {\em Discrete Math. 270}, 1-3 (2003), 333--334.
+
+\bibitem{PercyBook}
+{\sc MacMahon, P.~A.}
+\newblock {\em Combinatory analysis}.
+\newblock Two volumes (bound as one). Chelsea Publishing Co., New York, 1960.
+
+\bibitem{MarcusTardos}
+{\sc Marcus, A., and Tardos, G.}
+\newblock Excluded permutation matrices and the {S}tanley-{W}ilf conjecture.
+\newblock {\em J. Comb. Theory, Ser. A 107}, 1 (2004), 153--160.
+
+\bibitem{SubsDecomp}
+{\sc M\"{o}hring, R.~H., and Radermacher, F.~J.}
+\newblock Substitution decomposition for discrete structures and connections
+  with combinatorial optimization.
+\newblock In {\em Algebr. Comb. Methods Oper. Res. Proc. Work. Algebr. Struct.
+  Oper. Res.}, R.~A. C.-G. {R.E. Burkard} and U.~Zimmermann, Eds., vol.~95 of
+  {\em North-Holland Mathematics Studies}. North-Holland, 1984, pp.~257--355.
+
+\bibitem{MurphyVatter}
+{\sc Murphy, M.~M., and Vatter, V.}
+\newblock Profile classes and partial well-order for permutations.
+\newblock {\em Electron. J. Comb. 9}, 2 (2002), Research paper 17, 30 pp.
+  (electronic).
+\newblock Permutation patterns (Otago, 2003).
+
+\bibitem{Noonan1999}
+{\sc Noonan, J., and Zeilberger, D.}
+\newblock The goulden-jackson cluster method: extensions, applications and
+  implementations.
+\newblock {\em J. Differ. Equations Appl.\/} (1999), 1--17.
+
+\bibitem{pantone2013}
+{\sc Pantone, J.}
+\newblock The enumeration of permutations avoiding 3124 and 4312.
+\newblock arXiv:1309.0832 [math.CO], 21 pp.
+
+\bibitem{pemantle}
+{\sc Pemantle, R., and Wilson, M.~C.}
+\newblock {\em Analytic Combinatorics in Several Variables}.
+\newblock Cambridge University Press, New York, NY, USA, 2013.
+
+\bibitem{A=B}
+{\sc Petkov\v{s}ek, M., Wilf, H.~S., and Zeilberger, D.}
+\newblock {\em A=B}.
+\newblock A K Peters Ltd., Wellesley, MA, 1996.
+
+\bibitem{CompBio}
+{\sc Pevzner, P.~A.}
+\newblock {\em Computational molecular biology}.
+\newblock Computational Molecular Biology. MIT Press, Cambridge, MA, 2000.
+\newblock An algorithmic approach, A Bradford Book.
+
+\bibitem{Regev}
+{\sc Regev, A.}
+\newblock Asymptotic values for degrees associated with strips of {Y}oung
+  diagrams.
+\newblock {\em Adv. Math. (N. Y). 41}, 2 (1981), 115--136.
+
+\bibitem{Rudolph2013}
+{\sc Rudolph, K.}
+\newblock Pattern popularity in 132-avoiding permutations.
+\newblock {\em Electron. J. Comb. 20}, 1 (2013), Paper 8, 15 pp.
+
+\bibitem{Simion1985}
+{\sc Simion, R., and Schmidt, F.~W.}
+\newblock Restricted permutations.
+\newblock {\em Eur. J. Comb. 6}, 4 (1985), 383--406.
+
+\bibitem{Smith2006}
+{\sc Smith, R.}
+\newblock Permutation reconstruction.
+\newblock {\em Electron. J. Comb. 13}, 1 (2006), Note 11, 8.
+
+\bibitem{Stankova1994}
+{\sc Stankova, Z.~E.}
+\newblock Forbidden subsequences.
+\newblock {\em Discrete Math. 132}, 1-3 (1994), 291--316.
+
+\bibitem{Stanley2}
+{\sc Stanley, R.~P.}
+\newblock {\em Enumerative combinatorics. {V}ol. 2}, vol.~62 of {\em Cambridge
+  Studies in Advanced Mathematics}.
+\newblock Cambridge University Press, Cambridge, 1999.
+\newblock With a foreword by Gian-Carlo Rota and appendix 1 by Sergey Fomin.
+
+\bibitem{Stanley1}
+{\sc Stanley, R.~P.}
+\newblock {\em Enumerative combinatorics. {V}olume 1}, second~ed., vol.~49 of
+  {\em Cambridge Studies in Advanced Mathematics}.
+\newblock Cambridge University Press, Cambridge, 2012.
+
+\bibitem{Steingrimsson2013}
+{\sc Steingr\'{\i}msson, E., and McNamara, P. R.~W.}
+\newblock On the topology of the permutation pattern poset.
+\newblock arXiv:1305.5569 [math.CO], 27 pp.
+
+\bibitem{SteveWaton2007}
+{\sc {Steve Waton}}.
+\newblock On permutation classes generated by token passing networks, gridding
+  matrices and pictures: Three flavours of involvement.
+\newblock {\em PhD Thesis, Univ. St Andrews\/} (2007).
+
+\bibitem{Tauraso2006}
+{\sc Tauraso, R.}
+\newblock The dinner table problem: the rectangular case.
+\newblock {\em Integers 6\/} (2006), A11, 13.
+
+\bibitem{oeis}
+The {O}n-{L}ine {E}ncyclopedia of {I}nteger {S}equences.
+\newblock Published Electronically at \url{http://oeis.org}., 2010.
+
+\bibitem{Vatter2010}
+{\sc Vatter, V.}
+\newblock Permutation classes of every growth rate above 2.48188.
+\newblock {\em Mathematika 56}, 1 (2010), 182--192.
+
+\bibitem{Vatter2011}
+{\sc Vatter, V.}
+\newblock Small permutation classes.
+\newblock {\em Proc. London Math. Soc.\/} (2011), 38 pp.
+
+\bibitem{RegInsEnc}
+{\sc Vatter, V.}
+\newblock Finding regular insertion encodings for permutation classes.
+\newblock {\em J. Symb. Comput. 47}, 3 (2012), 259--265.
+
+\bibitem{Watterson1982}
+{\sc Watterson, G.~A., Ewens, W.~J., Hall, T.~E., and Morgan, A.}
+\newblock The chromosome inversion problem.
+\newblock {\em J. Theor. Biol. 99}, 1 (1982), 1--7.
+
+\bibitem{WestDiss}
+{\sc West, J.}
+\newblock Permutations with forbidden subsequences and stack-sortable
+  permutations.
+\newblock {\em PhD Thesis, Massachusetts Inst. Technol.\/} (1990).
+
+\bibitem{wilfbook}
+{\sc Wilf, H.~S.}
+\newblock {\em generatingfunctionology}, third~ed.
+\newblock A K Peters, Ltd., Wellesley, MA, 2006.
+
+\bibitem{Wolfowitz}
+{\sc Wolfowitz, J.}
+\newblock Note on runs of consecutive elements.
+\newblock {\em Ann. Math. Stat. 15\/} (1944), 97--98.
+
+\end{thebibliography}

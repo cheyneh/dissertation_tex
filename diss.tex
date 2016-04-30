@@ -16,13 +16,13 @@
 
 \sloppy
 
-\input{packages}
-\input{macros}
+\input{preamble/packages}
+\input{preamble/macros}
 
 \usepackage{makeidx}
 \makeindex
 
-\usepackage{mystyle}
+\usepackage{preamble/mystyle}
 
 \renewcommand*{\backref}[1]{}
 \renewcommand*{\backrefalt}[4]{%
@@ -178,7 +178,7 @@ University of Florida \\[1pc]
 
 \backmatter
 \bibliographystyle{acm}
-\bibliography{library}
+\input{postmatter/diss.bbl}
 
 % \printindex
 
