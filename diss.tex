@@ -1,4 +1,4 @@
-\documentclass[10pt,twoside]{memoir}
+\documentclass[12pt,twoside]{memoir}
 
 % paper size
 % =========================================================================== %
@@ -7,68 +7,33 @@
 % \usepackage[top=1.5in, bottom=1.5in, textwidth=5.5in, 
 %             hmarginratio=3:2]{geometry}
 
-\setstocksize{9in}{6in}
-\settrimmedsize{9in}{6in}{*}
-\settypeblocksize{7in}{4.5in}{*}
-\setlrmargins{.75in}{*}{*}
-\setulmargins{1in}{*}{*}
-\checkandfixthelayout
+% \setstocksize{9in}{6in}
+% \settrimmedsize{9in}{6in}{*}
+% \settypeblocksize{7in}{4.5in}{*}
+% \setlrmargins{.75in}{*}{*}
+% \setulmargins{1in}{*}{*}
+% \checkandfixthelayout
 
 \sloppy
 
+\usepackage{preamble/mystyle}
 \input{preamble/packages}
 \input{preamble/macros}
 
-\usepackage{makeidx}
-\makeindex
-
-\usepackage{preamble/mystyle}
-
-\renewcommand*{\backref}[1]{}
-\renewcommand*{\backrefalt}[4]{%
-    \ifcase #1 (Not cited.)%
-    \or        (Cited on page~#2.)%
-    \else      (Cited on pages~#2.)%
-    \fi}
-
 \chapterstyle{hline}
 
-\newcommand{\UnderlinedTocSection}[1]{%
-  \addtocontents{toc}{\protect\addvspace{1pc}%
-         \protect\contentsline {chapter}%
-        {\protect\Large\scshape\mdseries #1}{}{}%
-        \hfill\par\protect\addvspace{-18pt}%
-        \noindent\hrulefill\hspace*{24pc}\par}}
 
 \hypersetup{
   pdfauthor=Cheyne Homberger,
   pdftitle=Dissertation-Homberger,
-  }
-
+}
 
 % ====================================================================== %
 % \renewcommand{\scalebox}[2]{#2}
 \begin{document}
 \thispagestyle{empty}
 
-
-\pretitle{ \begin{center}}
-\title{\vspace{-6pc} \hrulefill \\ {\scshape \LARGE Patterns in Permutations and
-    Involutions\\[6pt]}}
-\posttitle{\par {\Large \scshape A Structural and Enumerative Approach}
-\\[-4pt] \hrulefill \vfill \end{center}}
-\author{{\small by} \\[4pc] Cheyne Homberger}
-\predate{\vfill\begin{center}\normalsize}
-
-
-\date{\vspace{4pc} A Dissertation Presented to the Graduate School of the University
-of Florida in Partial Fulfillment of the Requirements for the Degree of \\
-Doctor of Philosophy \\[1pc]
-University of Florida \\[1pc]
-2014}
-\maketitle
-\thispagestyle{empty}
-
+\input{prematter/title_page.tex}
 
 \cleardoublepage 
 
@@ -81,27 +46,20 @@ University of Florida \\[1pc]
 \cleardoublepage
 
 \frontmatter
-
 \cleardoublepage
 
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 \input{prematter/acknowledgements.tex}
-
 \cleardoublepage
 
 \tableofcontents
-
 \cleardoublepage
 
 \listoftables
-
 \cleardoublepage
 
 \listoffigures
-
-\newpage
-
 \cleardoublepage
 
 \chapter*{Abstract}
@@ -180,6 +138,6 @@ University of Florida \\[1pc]
 \bibliographystyle{acm}
 \input{postmatter/diss.bbl}
 
-% \printindex
+\printindex
 
 \end{document}

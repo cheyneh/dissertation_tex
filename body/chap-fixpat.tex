@@ -222,11 +222,11 @@
       Now, a permutation $\pi \in \S_n$ is contained in $\ins_\sg$ more than once
       exactly when $\sg$ can be obtained in more than one way by deleting a entry
       of $\pi$. It follows that $\sg$ is contained in a permutation $\pi \in \S_n$
-      more than once exactly when $\ins_\sg(j,k) = \ins_\sg(j\p,k\p)$ where
-      $(j,k) \neq (j\p,k\p)$. By the lemma, this happens exactly when the $j$th
+      more than once exactly when $\ins_\sg(j,k) = \ins_\sg(j',k')$ where
+      $(j,k) \neq (j',k')$. By the lemma, this happens exactly when the $j$th
       entry of
-      $\ins_\sg(j,k)$ is a part of the same run as the $j\p$ entry of
-      $\ins_\sg(j\p,k\p)$. We can prevent this from occurring by never inserting
+      $\ins_\sg(j,k)$ is a part of the same run as the $j'$ entry of
+      $\ins_\sg(j',k')$. We can prevent this from occurring by never inserting
       an element just to the right and directly above or below an existing
       element of $\sg$, as this ensures that any new bonds can be created in
       exactly one way. 
@@ -533,7 +533,7 @@
     entries. If follows then that $\Gam(\sg) = 2$ and so $\sg$ has a bond
     $(\sg_i, \sg_j)$ and is therefore not plentiful. It follows then that
     $\del_\sg(i) = \del_\sg(j)$, and so there are two sets of indices $S$ and
-    $S\p$ for which $\del_\pi(S) = \del_\pi(S\p)$. Therefore $|\delpik| <
+    $S'$ for which $\del_\pi(S) = \del_\pi(S')$. Therefore $|\delpik| <
     \binom{n}{k}$, contradicting the plentifulness of $\pi$. 
 
     For the other direction, we proceed using induction.
@@ -670,8 +670,8 @@
   \begin{proof}
     Let $\pi \in \S_n$ be such that $\Gam(\pi) = k+1$, and let $i,j \in [n]$ be
     such that $d_\pi(i,j) = k+1$ (i.e., $|\pspan_\pi(i,j)| = k-1$). If we let
-    $S = \pspan_\pi \cup i$ and $S\p = \pspan_\pi \cup j$, we see that
-    $\delpi(S) = \delpi(S\p)$, and so 
+    $S = \pspan_\pi \cup i$ and $S' = \pspan_\pi \cup j$, we see that
+    $\delpi(S) = \delpi(S')$, and so 
     $$\delpik \leq \binom{n}{k} - p_k. $$
     To show equality, let $A = \{a_1, a_2, \dots a_k\} \neq B = \{b_1, b_2,
     \dots b_k\}$, with $a_i < a_j$ and $b_i < b_j$ when $i < j$, and suppose
@@ -682,11 +682,11 @@
     smallest integer greater than $a_1$ such that $s \notin A$. Then, as in the
     proof of Theorem~\ref{fixpat:thm:kplentiful}, we have $d_\pi(a_1, s) = k+1$, and
     $A - {a_1} = B - {b_1} = \pspan_\pi(a_1, s)$.  In the case where $a_1 =
-    b_1$, let $\pi\p = \delpi(a_1)$, $A\p = A - \{a_1\}$, and $B\p = B -
-    \{b_1\}$. Since $\del_{\pi\p} (A\p) = \del_{\pi\p}(B\p)$, by
+    b_1$, let $\pi' = \delpi(a_1)$, $A' = A - \{a_1\}$, and $B' = B -
+    \{b_1\}$. Since $\del_{\pi'} (A') = \del_{\pi'}(B')$, by
     Lemma~\ref{fixpat:lem:span} and Theorem~\ref{fixpat:thm:kplentiful} imply that that
-    $\Gam(\pi\p) = k$. We now find that either $a_2 = b_2$ or $A\p - \{a_2\} =
-    B\p - \{b_2\}$. Iterating this argument shows that the two sets differ by
+    $\Gam(\pi') = k$. We now find that either $a_2 = b_2$ or $A' - \{a_2\} =
+    B' - \{b_2\}$. Iterating this argument shows that the two sets differ by
     at most one element. 
 
     Finally, let $i,j$ be such that $a_i \in A - B$ and $b_j \in B - A$. It

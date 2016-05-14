@@ -153,7 +153,19 @@ Encyclopedia of Integer Sequences}}
   \newtheorem{fact}[theorem]{Fact}
 
 
-
 % ====================================================================== %
-% Dealing with template
-  \newcommand{\p}{^{\prime}}
+% Contents and biblioraphy stuff
+  \newcommand{\UnderlinedTocSection}[1]{%
+    \addtocontents{toc}{\protect\addvspace{1pc}%
+           \protect\contentsline {chapter}%
+          {\protect\Large\scshape\mdseries #1}{}{}%
+          \hfill\par\protect\addvspace{-18pt}%
+          \noindent\hrulefill\hspace*{24pc}\par}}
+
+  \renewcommand*{\backref}[1]{}
+  \renewcommand*{\backrefalt}[4]{%
+      \ifcase #1 (Not cited.)%
+      \or        (Cited on page~#2.)%
+      \else      (Cited on pages~#2.)%
+      \fi%
+}
