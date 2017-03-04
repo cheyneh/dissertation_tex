@@ -1,8 +1,6 @@
 \chapter{Pattern Expectation}
 \label{chap:expat}
-  
   %\bibentry{me-expat}
-
   
   In the set of all permutations of length $n$, all patterns of a fixed length 
   \emph{occur} the same number of times. However, if we restrict to smaller
@@ -10,7 +8,6 @@
   investigation of pattern occurrences within permutations is a recent and
   productive research topic. This chapter explores this new area, and uses it
   to develop connections between permutation classes. 
-  
   
   In particular, we examine the classes of $123$- and $132$-avoiding
   permutations, and show that the number of $231$ patterns is identical in each.
@@ -21,11 +18,6 @@
   Elizalde~\cite{sergithesis}, and forming a foundation for
   further study~\cite{Elizalde2013, Rudolph2013, Janson2014}.  This chapter is
   based partly on~\cite{me-expat}.
-
-  
-
-  
-
 
 % =========================================================================== %
 \section{Pattern Occurrences}
@@ -51,8 +43,6 @@
   fifth, and sixth, entries of $p$ form $213$ patterns. Thus,
   $\num_{213}(462513) = 2$.  
 
-  
-
   Clearly, for permutations $\pi$ of length $n$ and $\sg$ of length $k$, we have
   that $\num_q(\pi)$ is bounded below by $0$ and above by $\binom{n}{k}$. This
   minimum value is realized by taking $\pi$ to be any $\sg$-avoiding
@@ -68,7 +58,6 @@
   
   For example, letting $S = \{2341, 4321, 1234\}$, we have that 
   $$ \num_{123}(S) = 1 + 0 + 4 = 5.$$ 
-
 
   \subsection{Pattern Expectation}
       
@@ -117,7 +106,6 @@
       \frac{n!}{k!} \binom{n}{k}.$$
     \end{proof}
 
-
     Fact \ref{expat:prop:allperms} shows that the total number of pattern occurrences
     within the set of all permutations depends \emph{only} on the length of the
     pattern specified. This contrasts sharply with the fact that the numbers of
@@ -131,8 +119,7 @@
     of small patterns within avoidance classes. In particular we seek insight to
     the following question, first posed by Joshua Cooper: ``How does the absence
     of one pattern affect the expectation of another?''
-    % TODO: cite josh cooper 
-
+    % TODO: cite josh 
 
   \subsection{Background and Data}
     
@@ -194,9 +181,6 @@
     This identity extends B\'ona's result, and presents another example of two
     permutation statistics with different distributions having the same mean. 
 
-
-    
-
 % =========================================================================== %
 \section{123-avoiding Permutations}
 \label{expat:av123}
@@ -209,11 +193,9 @@
     the total number of $231$ patterns is identical within the sets of
     $132$-avoiding and $123$-avoiding permutations of length $n$. 
 
-
     Throughout this sections, let $n$ be some fixed positive integer. For
     simplicity of notation, we use $\num_\sg$ to denote $\num_\sg (\Av_n(123))$. 
      
-
   \subsection{Class Structure}
 
     The class of $123$-avoiding permutations has a rigid structure, which we will
@@ -250,7 +232,6 @@
     skew-(in)decomposability, and so we drop the word `skew' for the simplicity
     of notation. 
 
-
     Note that if any element of $\pi$ is both a ltr-min and a rtl-max, then $\pi$
     is decomposable. It follows then that every indecomposable 123-avoiding
     permutation can be uniquely decomposed into its left-to-right minima and its
@@ -258,9 +239,7 @@
     permutation can be written as a skew sum of indecomposable 123-avoiding
     permutations. We use this fact to enumerate these permutations.
 
-
     \begin{proposition} \label{expat:prop:indecomposable}
-
       The number of indecomposable $123$-avoiding permutations is $c_{n-1}$, the
       $(n-1)$st Catalan number \index{Catalan number}.
     \end{proposition}
@@ -283,7 +262,6 @@
       c_{n-1}x^n.$$
     \end{proof}
       
-
   \subsection{Patterns of Length 2}  
 
     To start, we compute the values $\num_{12}$ and $\num_{21}$. Since every pair
@@ -318,7 +296,6 @@
       $$ \num_{21} = \binom{n}{2} c_n - 4^{n-1} + \binom{2n - 1}{n}.$$
     \end{proposition}
 
-
   \subsection{Patterns of Length 3}
 
     Deriving the number of occurrences for length three patterns is considerably
@@ -329,8 +306,6 @@
     the other values. 
     Let 
     $$a_n = \num_{213}, \quad b_n = \num_{231}, \quad \num_{321}.$$
-
-
 
     We start by finding the generating function for the numbers
     $\num_{213}(\Avns)$. While this may seem arbitrary, this will in fact lead
@@ -380,8 +355,6 @@
       indecomposability of the permutation to yield a more geometric description.
       This geometric interpretation of the bijection gives some additional
       insight into the number of $213$ patterns. 
-
-
 
     \begin{figure}[t] \centering
       \begin{tikzpicture}[scale=.3, yscale=-1, xscale=-1]
@@ -442,9 +415,6 @@
     \label{expat:fig:dyckproof}
     \end{figure}
 
-
-
-
       Note that each rtl-max in $\pi$ produces a peak in $P$. If $\pi_i$ is a
       rtl-max, let the \emph{span of $\pi_i$} ($\Sp \pi_i$) denote the number
       of entries to the left and below this entry. It follows then that 
@@ -485,8 +455,6 @@
       The sequence $0,0,1,7,38,187\dots$ is \OEIS{A000531}.  Finally,
       the correspondence between peaks and $213$ patterns completes the proof.
     \end{proof}
-
-
   
     Now, it is relatively simple to move from the set of indecomposable
     $123$-avoiding permutations to the larger set of all $123$-avoiding
@@ -515,7 +483,6 @@
       % Exact formula for the numbers $a_n$ is obtained from the
       % generating function by expanding by partial fractions.
     \end{proof}
-
 
     From here, we obtain the generating functions of the other patterns simply
     by relating their enumerations with the one already obtained. The following
@@ -576,8 +543,6 @@
       \end{aligned} $$
     \end{lemma}
 
-      
-
     Lemmas~\ref{expat:lem:twopats} and ~\ref{expat:lem:totalpats}, coupled with
     Lemma~\ref{expat:lem:genfcns}, establish a system of linear equations with
     three unknowns, $\num_{213}, \num_{231}$, and $\num_{321}$.
@@ -597,8 +562,6 @@
     First, we present the generating functions for the occurrences of $231$ and
     $321$, which follow by routine (but technical) computation. 
     
-    
-
     \begin{theorem} \label{expat:thm:231pats}
       The number of $231$ (or $312$) occurrences is given by 
       $$\sum_{n \geq 0} \num_{231}(\Av_n(123)) z^n=
@@ -619,7 +582,6 @@
       $$
     \end{theorem}
 
-
     \begin{corollary} \label{expat:cor:equivalences}
       The following identities hold 
       $$ \num_{21}(\Avn) = 2\num_{213}(\Avns) $$
@@ -631,9 +593,6 @@
         \sum_{n \geq 0} \big(\num_{132}(\Avns) +
         \num_{231}(\Avns)\big)z^n. $$
     \end{corollary}
-
-
-
 
   Now we can do some analysis of the main sequences. Using some
   standard generating function analysis \cite{flajolet}, we find
@@ -680,9 +639,6 @@
     $$
   \end{corollary}
 
- 
-
-
 %===================================================================%
 \subsection{Larger Patterns}
 
@@ -714,13 +670,4 @@
     on the right side eventually outgrows the second term, which completes the
     proof.
   \end{proof}
-
-
-
-  
-
-
-
-
-
 

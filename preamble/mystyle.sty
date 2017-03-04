@@ -1,7 +1,5 @@
 \ProvidesPackage{mystyle}
 
-
-
 % allows numbered subsections
 \setsecnumdepth{subsection}
 \setcounter{tocdepth}{3}
@@ -31,7 +29,6 @@
 % \definecolor{darkblue}{rgb}{0,0,0}
 % ====================================================================== %
 
-
 \usepackage[bookmarks, plainpages=false, backref=page]{hyperref}
 \hypersetup{
         colorlinks=true,
@@ -45,25 +42,19 @@
         pdfauthor={Cheyne Homberger},
 }
 
-
-
 % \usepackage{parskip}
 % \setlength{\parindent}{0pt}
 % \setlength{\parskip}{1em}
 \setlength{\parindent}{0pt}
 \nonzeroparskip
 
-
 % \makeatletter
 % \renewcommand\@biblabel[1]{$\diamondsuit$}
 % \makeatother
 
-
-
 % \newenvironment{acknowledge}%
 %   {{ \centering \scshape Acknowledgements \par }\small}%
 %   {\par \ignorespacesafterend \newpage}
-
 
 \newenvironment{acknowledge}{}{}
 
@@ -79,11 +70,9 @@
 \renewenvironment{abstract}{}{}
 
 
-
 % ====================================================================== %
 % Headers
 % ====================================================================== %
-
   \nouppercaseheads
   \makepagestyle{mystyle}
   \makeevenhead{mystyle}{\thepage}{}{\scshape \leftmark}
@@ -95,7 +84,6 @@
   \pagestyle{mystyle}
 
 
-
 % ====================================================================== %
 % Section styles
 % ====================================================================== %
@@ -104,7 +92,6 @@
     \counterwithin{figure}{section}
     \counterwithin{table}{section}}
   \makeatother
-
 
   \usepackage{titlesec}
 
@@ -250,6 +237,38 @@
 % ====================================================================== %
 % Title Page 
 % ====================================================================== %
+
+\makeatletter
+\newcommand*{\mytitlepage}{%
+\thispagestyle{empty}
+\begingroup
+% \vspace*{\baselineskip}
+% \vfill
+\hbox{%
+\hspace*{0.1\textwidth}%
+\rule{1pt}{\textheight}%
+\hspace*{0.05\textwidth}% 
+\parbox[b]{0.84\textwidth}{%
+% \vbox{%
+    % \vspace{0.1\textheight}
+    {\Huge\scshape Patterns in Permutations \\and Involutions} \\[\baselineskip]%
+    {\Large\itshape A Structural and Enumerative Approach \par}
+    \vspace{0.2\textheight}
+    {\large Cheyne Homberger\par}
+    \vspace{0.3\textheight}
+    {A Dissertation Presented to the Graduate School of the University of 
+     Florida in Partial Fulfillment of the Requirements for the\\ 
+     Degree of Doctor of Philosophy \\[1pc] 
+     University of Florida \\[1pc]
+     2014}
+% }% end of vbox
+}% end of parbox
+}% end of hbox
+\vfill
+\null
+\endgroup}
+\makeatother
+
 
 % \begin{titlepage}
 % \begin{center}
